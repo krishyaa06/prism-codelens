@@ -8,7 +8,7 @@
   "scripts": {
     "start": "node bin/codelens.js",
     "demo": "node bin/codelens.js review examples --offline",
-    "test": "node --test test/"
+    "test": "node --test"
   },
   "keywords": ["ai", "code-review", "cli", "llm", "gemini", "groq", "openai", "static-analysis", "developer-tools", "prism-protocol"],
   "author": "Soumya Bhandare (krishyaa06)",
