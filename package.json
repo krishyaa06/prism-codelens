@@ -1,0 +1,17 @@
+{
+  "name": "prism-codelens",
+  "version": "1.0.0",
+  "description": "AI code reviewer for your terminal. Finds bugs, security issues and code smells, scores your code and exports Markdown reports. Works offline too.",
+  "bin": { "codelens": "bin/codelens.js" },
+  "main": "src/index.js",
+  "files": ["bin", "src", "README.md", "LICENSE"],
+  "scripts": {
+    "start": "node bin/codelens.js",
+    "demo": "node bin/codelens.js review examples --offline",
+    "test": "node --test test/"
+  },
+  "keywords": ["ai", "code-review", "cli", "llm", "gemini", "groq", "openai", "static-analysis", "developer-tools", "prism-protocol"],
+  "author": "Soumya Bhandare (krishyaa06)",
+  "license": "MIT",
+  "engines": { "node": ">=18.17" }
+}
